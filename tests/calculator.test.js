@@ -5,8 +5,12 @@ describe('Calculator', () => {
         expect(add(2, 3)).toBe(5);
     });
 
-    test('adds -2 + -3 to equal 5', () => {
+    test('adds -2 + -3 to equal -5', () => {
         expect(add(-2, -3)).toBe(-5);
+    });
+
+    test('adds -3 + -4 to equal -7', () => {
+        expect(add(-3, -4)).toBe(-7);
     });
 
     test('subtracts 5 - 3 to equal 2', () => {
